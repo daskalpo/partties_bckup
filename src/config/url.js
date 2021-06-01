@@ -1,0 +1,119 @@
+let BaseUrl = "https://www.partties.com/api/public/index.php/api/v1/";
+let AdminUrl = BaseUrl + "admin/";
+
+export const Register = BaseUrl + "auth/register";
+export const forgetPasword = BaseUrl + "password/email";
+export const Login = BaseUrl + "auth/login";
+export const Products = BaseUrl + "products";
+export const global_Products = BaseUrl + "global-products";
+export const ProductsNew = BaseUrl + "products-new";
+export const GIftNew = BaseUrl + "gift-new";
+export const ProductDetails = BaseUrl + "product";
+export const Productvariations = BaseUrl + "product/get-variations";
+export const cart_add_to_database = BaseUrl + "cart/addbulk";
+export const cart_details_for_user = BaseUrl + "cart/details";
+export const cart_remove_online = BaseUrl + "cart/remove";
+export const cart_modify_online = BaseUrl + "cart/add";
+export const get_user_address = BaseUrl + "user/get-all-address";
+export const get_state_list = BaseUrl + "address/state-lists";
+export const get_city_list = BaseUrl + "address/city-lists";
+export const add_user_address = BaseUrl + "user/add-new-address";
+export const cart_add_online = BaseUrl + "cart/add";
+export const add_to_wishlist = BaseUrl + "wishlist/add";
+export const remove_to_wishlist = BaseUrl + "wishlist/remove";
+export const product_attributes = BaseUrl + "product-attribuites";
+export const payment = BaseUrl + "payment/process";
+export const wishlist = BaseUrl + "products/wishlist";
+export const recommendation = BaseUrl + "products/recommended";
+export const recentlyViewedItem = BaseUrl + "products/recent-viewed";
+export const customer_review = BaseUrl + "customer/review";
+export const custom_cake = BaseUrl + "product/custom-cake/save";
+export const order_confirmation = BaseUrl + "order/confirmation";
+export const order_history = BaseUrl + "order/history";
+export const order_details = BaseUrl + "order/details";
+export const user_profile = BaseUrl + "profile/details";
+export const user_address_delete = BaseUrl + "user/address_delete";
+export const user_address_edit = BaseUrl + "user/update-user-address";
+export const user_profile_update = BaseUrl + "user/profile_update";
+export const party_enquiry = BaseUrl + "customer/party-enquiry";
+export const user_change_password = BaseUrl + "user/change-password";
+export const cart_wish_count = BaseUrl + "user/get-count-wishlist-cart";
+export const gifts = BaseUrl + "gifts";
+export const party_item = BaseUrl + "party-items";
+export const shipping_address = BaseUrl + "user/shipping-address";
+export const vendor_list = BaseUrl + "vendor-list";
+export const TokenDetails = BaseUrl + "password/get-token";
+export const resetPassword = BaseUrl + "password/reset";
+export const topMenu = BaseUrl + "top-menus-list";
+export const widget_list = BaseUrl + "widgets-list";
+export const mobile_banner = BaseUrl + "mobile-banners-list";
+export const web_banner = BaseUrl + "desktop-banners-list";
+
+// ADMIN API URL
+
+export const admin_login = AdminUrl + "auth/login";
+export const dashboard_details = AdminUrl + "dashboard";
+export const customer_list = AdminUrl + "customers/list";
+export const customer_details = AdminUrl + "customer/details";
+export const customer_activation = AdminUrl + "user/update-customer-status";
+export const order_list = AdminUrl + "orders/list";
+export const admin_order_details = AdminUrl + "order/details";
+export const customer_transactions = AdminUrl + "transactions/list";
+export const customer_transactions_details = AdminUrl + "transaction/details";
+export const admin_product_attributes_list = AdminUrl + "product/attribuites";
+export const admin_product_categories_list = AdminUrl + "product/categories";
+export const admin_fetch_category_list = AdminUrl + "product/category";
+export const admin_category_add = AdminUrl + "product/add-new-category";
+export const admin_category_edit = AdminUrl + "product/edit-category";
+export const admin_category_delete = AdminUrl + "product/delete-category";
+export const admin_product_lists_list = AdminUrl + "product/lists";
+export const admin_product_add = AdminUrl + "product/add-new-product";
+export const admin_product_edit = AdminUrl + "product/edit-product";
+export const admin_product_attribute_add =
+  AdminUrl + "product/add-new-attribuite";
+export const admin_product_attribute_edit =
+  AdminUrl + "product/edit-attribuite";
+export const admin_product_attribute_delete =
+  AdminUrl + "product/delete-attribuite";
+export const admin_product_varitions_list = AdminUrl + "products/varitions";
+export const admin_product_varitions_add =
+  AdminUrl + "products/varition/add-new-varition";
+export const admin_product_variation_edit =
+  AdminUrl + "products/varition/edit-varition";
+export const admin_product_variation_fetch = AdminUrl + "products/varition";
+export const admin_product_variation_delete =
+  AdminUrl + "products/varition/delete-varition";
+export const admin_product_csv_fetch = AdminUrl + "export/products";
+export const admin_product_delete = AdminUrl + "product/delete-product";
+export const admin_vendor_list = AdminUrl + "vendors/list";
+export const admin_tax_list = BaseUrl + "product-tax-categories";
+export const admin_fetch_product_list = AdminUrl + "product";
+export const admin_import_product = AdminUrl + "import/products";
+export const admin_slider_delete = AdminUrl + "product/delete-product-image";
+export const admin_order_change_status = AdminUrl + "order/change-status";
+export const pincode_list = AdminUrl + "pincodes/list";
+export const admin_cake_enquiry_list = AdminUrl + "custom/products";
+export const admin_party_enquiry_list = AdminUrl + "party-enquiries";
+export const admin_party_enquiry_details= AdminUrl + "party-enquiry";
+export const admin_custom_cake_details = AdminUrl + "custom/product";
+
+export const admin_top_menu_list = AdminUrl + "menus";
+export const admin_top_menu_list_edit = AdminUrl + "menu/edit/";
+export const admin_top_menu_list_order_changes = AdminUrl + "menu/ordering";
+export const admin_top_menu_add_new = AdminUrl + "menu/add-new";
+export const admin_banners = AdminUrl + "banners";
+export const admin_add_new_banner = AdminUrl + "banner/add-new";
+export const admin_edit_banner = AdminUrl + "banner/edit/";
+export const admin_delete_banner = AdminUrl + "banner/delete/";
+export const admin_add_widget = AdminUrl + "widget/add-new";
+export const admin_add_widget_slider = AdminUrl + "widget/sliderbox/add-new";
+export const admin_edit_widget_slider = AdminUrl + "widget/sliderbox/edit/";
+export const admin_widget_list = AdminUrl + "widgets";
+export const admin_widget_ordering = AdminUrl + "widget/ordering";
+export const admin_widget_add_attribute_tile = AdminUrl + "widget/attrbox/add-new";
+export const admin_widget_edit_attribute_tile = AdminUrl + "widget/attrbox/edit/";
+export const admin_widget_details = AdminUrl + "widget/";
+export const admin_widget_delete = AdminUrl + "widget/delete/";
+export const admin_widget_edit = AdminUrl + "widget/edit/";
+export const admin_widget_add_product = AdminUrl + "widget/probox/add-new";
+export const admin_widget_edit_product = AdminUrl + "widget/probox/edit/";
